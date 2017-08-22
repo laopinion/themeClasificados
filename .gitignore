@@ -1,0 +1,7 @@
+.sass-cache/
+style.css.map
+sites/default/themes/*/css/style.css.map
+stylesheets/
+.vscode/
+
+.htaccess
