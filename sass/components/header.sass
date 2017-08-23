@@ -1,8 +1,8 @@
+.container
+  margin: 0 auto
+  width: 1000px
 #header
   background-color: $rojo
-  .container
-    margin: 0 auto
-    width: 1000px
   #block1
     background-color: $rojoOscuro
     height: 25px
@@ -125,3 +125,62 @@
       float: left
       width: 100%
       border: 0
+
+#footer
+  background-color: $rojo
+  width: 100%
+  #block1
+    background-color: $rojoOscuro
+    height: 45px
+    .container
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 100%
+      h2
+        font-size: 1.6rem // 25px
+        font-weight: 400
+        color: $blanco
+        margin: 0
+  #block2
+    height: 133px
+    .container
+      display: flex
+      justify-content: space-around
+      align-items: center
+      height: 100%
+      color: $blanco
+      i
+        display: block
+        height: 80px
+      .tel
+        width: 260px
+        .iconTel
+          background: url('../img/iconos/tel.svg') no-repeat
+          a
+            display: block
+            text-indent: -99999px
+            height: 100%
+      .office
+        display: flex
+        align-items: center
+        width: 200px
+        .iconOffice
+          background: url('../img/iconos/office.svg') no-repeat
+          width: 110px
+      .domic
+        display: flex
+        align-items: center
+        width: 270px
+        .iconDomic
+          background: url('../img/iconos/domicilios.svg') no-repeat
+          width: 160px
+      p   
+        margin: 0
+        font-size: 1.6rem // 25px
+      hr
+        margin: 0
+        height: 90px
+  #block3
+    background-color: $rojoOscuro
+    height: 300px
